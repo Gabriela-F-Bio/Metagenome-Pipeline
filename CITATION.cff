@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this pipeline, please cite it using the metadata below and cite the individual software tools listed in the README."
+title: "Metagenome Pipeline"
+type: software
+
+authors:
+  - family-names: "Franco"
+    given-names: "Gabriela Crystal"
+    orcid: "https://orcid.org/0009-0006-3393-3220"
+
+version: 1.0.0
+date-released: 2026-10-05
+license: MIT
+
+keywords:
+  - metagenomics
+  - bioinformatics
+  - metagenome-assembled genomes
+  - MAGs
+  - antimicrobial resistance
+  - microbiology
+
+abstract: >-
+  A script based bioinformatics pipeline for paired-end metagenomic
+  sequencing data, including read trimming, assembly, genome binning,
+  MAG quality assessment, taxonomic classification, read mapping,
+  prevalence estimation, and antimicrobial resistance annotation.
