@@ -1,4 +1,7 @@
 # Metagenome Pipeline
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23171374.svg)](https://doi.org/10.5281/zenodo.23171374)
+
 Current version: v1.0.0 (core + optional extensions)
 
 This repository contains a **reproducible, script-based pipeline** for processing paired-end FASTQ files through read-level community profiling, assembly, binning, MAG quality control, read mapping, prevalence estimation, taxonomy assignment, AMR identification, and quality-tier splitting.
@@ -506,7 +509,7 @@ Bracken optionally re-estimates taxonomic abundance from the Kraken2 reports.
 
 Outputs are written to:
 
-````
+```
 11kraken2/
 ├── reports/      # Kraken2 reports
 ├── outputs/      # per-read Kraken2 classification output
@@ -668,8 +671,10 @@ Ensure sufficient free disk space before downloading.
 
 ## 9. Citation
 
-If you use this pipeline, please cite the pipeline using the metadata in
-[`CITATION.cff`](CITATION.cff).
+**Metagenome Pipeline v1.0.0:**  
+Franco, G. C. (2026). *Metagenome Pipeline* (v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23171374
+
+Citation metadata is also available in [`CITATION.cff`](CITATION.cff).
 
 The individual software packages used in your analysis should also be cited.
 See [`SOFTWARE_CITATIONS.md`](SOFTWARE_CITATIONS.md) for the recommended
