@@ -11,6 +11,12 @@ authors:
 version: 1.0.0
 date-released: 2026-10-05
 license: MIT
+repository-code: "https://github.com/Gabriela-F-Bio/Metagenome-Pipeline"
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23171374"
+    description: "DOI for Metagenome Pipeline v1.0.0"
 
 keywords:
   - metagenomics
